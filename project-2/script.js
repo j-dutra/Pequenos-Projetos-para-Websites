@@ -29,7 +29,7 @@ function update(){
     circles.forEach((circle, idx) => {
         if(idx < currentActive){
             circle.classList.add("active")
-        } else{
+        } else {
             circle.classList.remove("active")
         }
     })
